@@ -1,0 +1,4 @@
+import urllib.request
+url= input('Enter the url ')
+file=urllib.request.urlopen(url)
+print(file.read())
