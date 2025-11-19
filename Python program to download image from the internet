@@ -1,0 +1,3 @@
+import urllib.request
+url=input("Enter the url \n")
+download=urllib.request.urlretrieve(url,"myimage.jpg")
